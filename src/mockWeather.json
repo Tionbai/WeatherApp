@@ -1,0 +1,12 @@
+{
+    "cod": 200,
+    "name": "Example city",
+    "main": {
+        "temp": "24"
+    },
+    "weather": [
+        {
+            "icon": "01d"
+        }
+    ]
+}

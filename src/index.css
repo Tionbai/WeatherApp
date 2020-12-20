@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: border-box;
+}
+
+:root {
+    --white75: rgba(255, 255, 255, 0.75);
+    --lightblue: rgb(82, 162, 215);
+    --borderBottomShadow: 1px solid rgb(36, 36, 36);
+    --borderTopShadow: 1px solid rgb(232, 232, 232);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
