@@ -1,62 +1,60 @@
 .Header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 40vh;
 }
 
 .Header__h1 {
-    height: 140px;
-    line-height: 50px;
-    color: white;
-    text-align: center;
-    font-family: "Segoe Print";
-    font-weight: normal;
-    font-variant: small-caps;
-    font-size: 2em;
-    letter-spacing: 0.1em;
+  height: 140px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  font-family: 'Segoe Print';
+  font-weight: normal;
+  font-variant: small-caps;
+  font-size: 2em;
+  letter-spacing: 0.1em;
 }
 
 .Header__h1 > .fa-umbrella::before {
-   background: linear-gradient(290deg, rgb(22, 189, 255), white);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+  background: linear-gradient(290deg, rgb(22, 189, 255), white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .Header__symbols {
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.25em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25em;
 }
 
 .fa-sun {
-    color: rgba(255, 255, 0, 0.75);
+  color: rgba(255, 255, 0, 0.75);
 }
 
 .fa-cloud-sun {
-    color: var(--white75);
-    margin-top: -5px;
+  color: var(--white75);
+  margin-top: -5px;
 }
 
 .fa-cloud-rain {
-    color: var(--white75);
-    margin-top: -10px;
+  color: var(--white75);
+  margin-top: -10px;
 }
 
 .fa-cloud-showers-heavy {
-    color: rgba(183, 183, 183, 0.75);
-    margin-top: -5px;
+  color: rgba(183, 183, 183, 0.75);
+  margin-top: -5px;
 }
 
 .fa-snowflake {
-    color: rgba(173, 216, 230, 0.75);
+  color: rgba(173, 216, 230, 0.75);
 }
 
 @media (max-width: 280px) {
-
-    .Header__h1 {
-        font-size: 10vw;
-    }
-
+  .Header__h1 {
+    font-size: 10vw;
+  }
 }

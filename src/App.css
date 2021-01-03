@@ -3,7 +3,10 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-image: linear-gradient(rgb(22, 65, 255), rgb(82, 162, 215));
+  background-image: linear-gradient(
+    rgb(22, 65, 255),
+    rgb(82, 162, 215)
+  );
   overflow: hidden;
 }
 
@@ -31,27 +34,27 @@
 
 @keyframes errorFade {
   0% {
-    opacity: 100%
+    opacity: 100%;
   }
   50% {
     opacity: 100%;
   }
   100% {
-    opacity: 0%
+    opacity: 0%;
   }
 }
 
 @keyframes backgroundMotion {
   0% {
-      object-position: 0% 0%;
-      opacity: 0;
+    object-position: 0% 0%;
+    opacity: 0;
   }
   50% {
-      opacity: 0.5;
+    opacity: 0.5;
   }
   100% {
-      object-position: 0% 40%;
-      left: -200%;
-      opacity: 0;
+    object-position: 0% 40%;
+    left: -200%;
+    opacity: 0;
   }
 }

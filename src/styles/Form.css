@@ -1,72 +1,72 @@
 .Form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+  /* border: 1px solid black; */
 }
 
 .Form__search {
-    display: flex;
-    width: 95%;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 5px;
-    background-color: var(--white75);
-    border-top: var(--borderTopShadow);
-    border-bottom: var(--borderBottomShadow);
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  background-color: var(--white75);
+  border-top: var(--borderTopShadow);
+  border-bottom: var(--borderBottomShadow);
 }
 
-.Form__search--button, .Form__search--input {
-    border: 0px solid black;
-    background: none;
-    outline: none;
-    padding: 15px;
-    font-size: 1em;
+.Form__search--button,
+.Form__search--input {
+  border: 0px solid black;
+  background: none;
+  outline: none;
+  padding: 15px;
+  font-size: 1em;
 }
 
 .Form__search--input {
-    width: 90%;
-    border-radius: 0px 5px 5px 0px;
+  width: 90%;
+  border-radius: 0px 5px 5px 0px;
 }
 
 .Form__search--button {
-    width: 10%;
-    margin-right: -0.5px;
-    border-radius: 5px 0px 0px 5px;
-    border-right: none;
+  width: 10%;
+  margin-right: -0.5px;
+  border-radius: 5px 0px 0px 5px;
+  border-right: none;
 }
 
 .fa-search:hover {
-    color: rgb(22, 65, 255);
+  color: rgb(22, 65, 255);
 }
 
 .Form__location {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    color: var(--white75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  color: var(--white75);
 }
 
 .fa-location-arrow {
-    padding-right: 0.5em;
-    cursor: pointer;
+  padding-right: 0.5em;
+  cursor: pointer;
 }
 
 .Form__location--text {
-    cursor: pointer;
+  cursor: pointer;
 }
- 
-  ::placeholder {
-    color: black;
-  }
-  
-  @media (min-width: 768px) {
 
-    .Form {
-      width: 730px;
-    }
-  
-  } 
+::placeholder {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .Form {
+    width: 730px;
+  }
+}
